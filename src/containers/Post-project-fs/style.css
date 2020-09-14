@@ -1,0 +1,58 @@
+.addnew {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vh;
+}
+.addnew header { 
+  height: 150px;
+}
+.addnew .step {
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  align-self: center;
+  vertical-align: middle;
+  height: 100%;
+} 
+.addnew-content {
+  position: relative;
+  height: 100%;
+  width: 66.66%;
+  display: flex;
+  flex-direction: column;
+}
+.addnew header .navbar-brand {
+  padding-left: 0;
+  padding-top: 22px;
+}
+.navbar-brand {
+  float: left;
+  padding: 15.5px 15px;
+  font-size: 16px;
+  line-height: 19px;
+  height: 50px;
+} 
+a {
+  background-color: transparent;
+  color: #3a7fff;
+  text-decoration: none;
+}
+
+
+
+.iz{
+  width: 40%;
+  background: #e3e9f5;
+  float: left;
+  padding-top: 5px;
+  padding-right: 50px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+
