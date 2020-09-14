@@ -51,7 +51,7 @@ const logout=()=>{
         </div>
         <ul className="nav navbar-nav">
           <li className="active">
-            <a href="#">Home</a>
+            <Link to="/home">Home</Link>
           </li>
           <li className="dropdown">
             <a className="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -70,7 +70,7 @@ const logout=()=>{
             </ul>
           </li>
           <li>
-            <a href="#">Page 2</a>
+            <Link to="/dashboard">Proyectos</Link>
           </li>
         </ul>
        <div >
@@ -83,7 +83,7 @@ const logout=()=>{
          </li>
         </ul>
        </div>
-      </div>
+      </div>      
     </nav>
   );
 }
