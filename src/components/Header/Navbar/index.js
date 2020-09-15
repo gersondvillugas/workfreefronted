@@ -59,14 +59,14 @@ const logout=()=>{
             </a>
             <ul className="dropdown-menu">
               <li>
-                <a href="#">Page 1-1</a>
+                <Link to="/propuestas">Propuestas</Link>
               </li>
-              <li>
+              {/* <li>
                 <a href="#">Page 1-2</a>
               </li>
               <li>
                 <a href="#">Page 1-3</a>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li>

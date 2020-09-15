@@ -9,6 +9,7 @@ class Job extends Component {
     budget: "",
     state: "",
     orderDate: "",
+    country:""
   };
   componentDidMount() {
     //importante
@@ -36,6 +37,7 @@ class Job extends Component {
   }
 
   render() {
+    
     return (
       <React.Fragment>
         <Header />

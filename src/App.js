@@ -14,6 +14,7 @@ import Signupw from '../src/containers/Signup/signup'
 import React, {useState} from 'react';
 import Worker from   '../src/components/worker/worker'
 import Dashboard from '../src/components/Dashboard/Dashboard'
+import Jobproject from '../src/containers/Jobproject/index'
 function App() {
   const [title, updateTitle] = useState(null);
   const [errorMessage, updateErrorMessage] = useState(null);
@@ -31,6 +32,7 @@ function App() {
           <Route path="/dashboard" component={Dashboard}/>
           <Route exact path="/job/:id" component={Job}/>
           <Route path="/job/:id/proposal" component={Proposal}/>
+          <Route path="/propuestas" component={Jobproject}/>
 
           {/* <Route path="/cpanel" component={ControlPanel} /> */}
           {/* <Route path="/products/:category/:slug" component={ProductDetails} /> */}

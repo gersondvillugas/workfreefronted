@@ -42,6 +42,7 @@ const handleSubmitClick = (e) => {
                 props.history.push('/companies');
                 console.log("hola mundo")
         //        props.showError(null)
+                  alert("login succesfull")
             }
             else if(response.code === 204){
       //          props.showError("Username and password do not match");

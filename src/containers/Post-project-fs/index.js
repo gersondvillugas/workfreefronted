@@ -51,6 +51,7 @@ function Postprojectfs (props) {
             //localStorage.setItem(ACCESS_TOKEN_NAME,response.data.token);
             localStorage.setItem(ACCESS_USER_ID, response.data.usuario._id);
             localStorage.setItem("USER",JSON.stringify(response.data.usuario))
+            alert("register succesfully");
 
             redirecToadd();
 
@@ -60,6 +61,8 @@ function Postprojectfs (props) {
           } else {
             //  props.showError("Some error ocurred");
             console.log("some error ocurred");
+            alert("some error ocurred");
+
           }
         })
         .catch(function (error) {
